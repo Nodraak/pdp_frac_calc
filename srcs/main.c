@@ -6,7 +6,7 @@
 *
 *  Creation Date : 18-09-13 11:54:14
 *
-*  Last Modified : 18-09-13 13:14:54
+*  Last Modified : 18-09-13 13:22:53
 *
 *  Created By : Adur
 *
@@ -26,6 +26,11 @@ int main(void)
     t_frac frac2 = {1, 2, t_ERR_NONE};
 
     t_frac result = ft_sub(frac1, frac2);
+
+    ft_print_frac(frac1);
+    printf(" - "); /* change it according to the calc you choose */
+    ft_print_frac(frac2);
+    printf(" = ");
     ft_print_frac(result);
     printf("\n");
 

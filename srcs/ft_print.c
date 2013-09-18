@@ -6,7 +6,7 @@
 *
 *  Creation Date : 18-09-13 13:11:29
 *
-*  Last Modified : 18-09-13 13:14:20
+*  Last Modified : 18-09-13 13:22:33
 *
 *  Created By : Adur
 *
@@ -18,7 +18,7 @@
 
 void    ft_print_frac(t_frac frac)
 {
-    printf("%d / %d", frac.nom, frac.denom);
+    printf("%d/%d", frac.nom, frac.denom);
     fflush(stdout);
 }
 
